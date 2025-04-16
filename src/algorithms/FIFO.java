@@ -51,9 +51,11 @@ public class FIFO{
     }
 
     public void printStats() {
+        System.out.println("ALGORITMO FIFO: ");
         System.out.printf("Page Faults: %d\n", pageFaultCounter);
         System.out.printf("Page Hits: %d\n", pageHitCounter);
-        System.out.printf("Hit Rate: %.2f%%\n", getPageHitRate());
-        System.out.printf("Fault Rate: %.2f%%\n", getPageFaultRate());
+        System.out.printf("Taxa de Hits: %.2f%%\n", getPageHitRate());
+        System.out.printf("Taxa de Page Faults: %.2f%%\n", getPageFaultRate());
+        System.out.println("-".repeat(20));
     }
 }
