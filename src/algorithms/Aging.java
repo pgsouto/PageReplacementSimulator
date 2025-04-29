@@ -1,8 +1,11 @@
 package algorithms;
 
+import paging.Page;
+
 import java.util.*;
 
 public class Aging {
+    /*
     private static class Page {
         int number;
         int counter;
@@ -11,6 +14,14 @@ public class Aging {
             this.number = number;
             this.counter = 0;
         }
+    }*/
+
+    public int getPageHitCounter() {
+        return pageHitCounter;
+    }
+
+    public int getPageFaultCounter() {
+        return pageFaultCounter;
     }
 
     private int pageFaultCounter;

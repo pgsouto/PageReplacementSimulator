@@ -3,6 +3,14 @@ package algorithms;
 import java.util.*;
 
 public class NFU {
+    public int getPageFaultCounter() {
+        return pageFaultCounter;
+    }
+
+    public int getPageHitCounter() {
+        return pageHitCounter;
+    }
+
     private int pageFaultCounter;
     private int pageHitCounter;
     private int capacity;
