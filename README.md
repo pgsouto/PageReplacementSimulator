@@ -1,11 +1,11 @@
-**# Simulador de Algoritmos de Paginação
+# Simulador de Algoritmos de Paginação
 
 ## 📌 Introdução
 
 Projeto da disciplina de **Projeto de Sistemas Operacionais**, focado em **algoritmos de substituição de página**.  
 O simulador implementa os algoritmos **Aging**, **FIFO** (com bit de referência), **LRU** e **NFU**.
 
-1. [ ] Foi desenvolvido em **Java (versão 21)** e utiliza a biblioteca **JavaFX (Versão 21)** para construção da interface gráfica.
+Foi desenvolvido em **Java (versão 21)** e utiliza a biblioteca **JavaFX (Versão 21)** para construção da interface gráfica.
 
 ## 👥 Autores
 
@@ -77,4 +77,5 @@ Siga os passos abaixo para clonar ou baixar o projeto:
 --module-path "C:\javafx-sdk-21\lib" --add-modules javafx.controls,javafx.fxml
 ```
 ⚠️ **Importante:** Não esqueça de modificar o caminho para o seu JavaFX.
+
 7. Clique em **Apply > Ok****
