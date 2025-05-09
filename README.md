@@ -13,7 +13,7 @@ Foi desenvolvido em **Java (versão 21)** e utiliza a biblioteca **JavaFX (Vers�
 **Matrícula**: 2223875
 
 - [Larissa Elias](https://github.com/LariElias)  
-**Matrícula**: _a definir_
+**Matrícula**: 2315032
 
 ---
 
